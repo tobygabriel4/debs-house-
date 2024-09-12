@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+    background: rgba(0, 0, 0, 0.7) url(image/six.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    cursor: pointer;
+}
+
+body h1{
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+.container{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid wheat;
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 30%;
+}
+
+.content{
+    position: absolute;
+    color: wheat;
+    top: 120%;
+    left: 20%;
+}
+
+.content h2{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content h3{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content h4{
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+    text-transform: lowercase;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    background-color: black;
+    color: wheat;
+    border-radius: 5px;
+    border-bottom: 15px;
+    text-decoration: none;
+    transition: 3.5s;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset, 0 3px 50px orangered inset, 0 3px 50px orangered inset, 0 3px 50px orangered inset;
+}
+
+.navbar .booking{
+    background-color: orangered;
+    padding: 10px;
+}
+
+.navbar .socials{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar .fa-whatsapp{
+    font-size: 30px;
+    background-color: black;
+    color: wheat;
+    border-radius: 20px;
+    border: 20px;
+    height: 30px;
+    width: 50px;
+    justify-content: center;
+}
+
+.navbar .fa-instagram{
+    font-size: 30px;
+    background-color: black;
+    color: wheat;
+    border-radius: 20px;
+    border: 20px;
+    height: 30px;
+    width: 50px;
+}
+
+.navbar .fa-tiktok{
+    font-size: 30px;
+    background-color: black;
+    color: wheat;
+    border-radius: 20px;
+    border: 20px;
+    height: 30px;
+    width: 50px;
+}
